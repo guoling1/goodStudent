@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>好学生</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-4.3.3.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div class="header">
+    <div class="left">
+        <img src="images/back.png" alt="">
+        <span>返回</span>
+    </div>
+    <div class="title">校园商城</div>
+    <div class="right">
+    </div>
+</div>
+
+<div class="container">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/banner.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/banner.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <div class="notice">
+        <img src="images/notice.png" alt="" class="fl">
+        <span>浏览：4191568人  推荐精品图书13套</span>
+    </div>
+    <div class="screen_box">
+        <div class="search_box fl">
+            <input type="text" placeholder="搜索图书">
+            <div class="btn fr"><img src="images/search.png" alt=""></div>
+        </div>
+        <div class="screen fl">
+            <span>全部</span>
+            <img src="images/hornDown.png" alt="">
+        </div>
+        <div class="shop_car fr"><img src="images/shopCar1.png" alt=""></div>
+    </div>
+    <div class="screen_mask">
+        <ul>
+            <li>全部</li>
+            <li>小学</li>
+            <li>小学</li>
+            <li>小学</li>
+            <li>小学</li>
+            <li>小学</li>
+            <li>小学</li>
+            <li>小学</li>
+        </ul>
+    </div>
+    <ul class="shop_list">
+        <li>
+            <div class="img">
+                <img src="images/book.png" alt="">
+            </div>
+            <div class="content clear">
+                <p class="name">人间失格（日本小说家）</p>
+                <div class="fl">
+                    <p class="new_price">现价：<span>￥18.00</span></p>
+                    <s class="old_price">原价：<span>￥24.00</span></s>
+                </div>
+                <img src="images/shopCar.png" alt="" class="car fr">
+            </div>
+        </li>
+        <li>
+            <div class="img">
+                <img src="images/book.png" alt="">
+            </div>
+            <div class="content clear">
+                <p class="name">人间失格（日本小说家）</p>
+                <div class="fl">
+                    <p class="new_price">现价：<span>￥18.00</span></p>
+                    <s class="old_price">原价：<span>￥24.00</span></s>
+                </div>
+                <img src="images/shopCar.png" alt="" class="car fr">
+            </div>
+        </li>
+        <li>
+            <div class="img">
+                <img src="images/book.png" alt="">
+            </div>
+            <div class="content clear">
+                <p class="name">人间失格（日本小说家）</p>
+                <div class="fl">
+                    <p class="new_price">现价：<span>￥18.00</span></p>
+                    <s class="old_price">原价：<span>￥24.00</span></s>
+                </div>
+                <img src="images/shopCar.png" alt="" class="car fr">
+            </div>
+        </li>
+        <li>
+            <div class="img">
+                <img src="images/book.png" alt="">
+            </div>
+            <div class="content clear">
+                <p class="name">人间失格（日本小说家）</p>
+                <div class="fl">
+                    <p class="new_price">现价：<span>￥18.00</span></p>
+                    <s class="old_price">原价：<span>￥24.00</span></s>
+                </div>
+                <img src="images/shopCar.png" alt="" class="car fr">
+            </div>
+        </li>
+        <li>
+            <div class="img">
+                <img src="images/book.png" alt="">
+            </div>
+            <div class="content clear">
+                <p class="name">人间失格（日本小说家）</p>
+                <div class="fl">
+                    <p class="new_price">现价：<span>￥18.00</span></p>
+                    <s class="old_price">原价：<span>￥24.00</span></s>
+                </div>
+                <img src="images/shopCar.png" alt="" class="car fr">
+            </div>
+        </li>
+        <li>
+            <div class="img">
+                <img src="images/book.png" alt="">
+            </div>
+            <div class="content clear">
+                <p class="name">人间失格（日本小说家）</p>
+                <div class="fl">
+                    <p class="new_price">现价：<span>￥18.00</span></p>
+                    <s class="old_price">原价：<span>￥24.00</span></s>
+                </div>
+                <img src="images/shopCar.png" alt="" class="car fr">
+            </div>
+        </li>
+    </ul>
+</div>
+
+<script src="js/rem.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/swiper-4.3.3.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    })
+
+    $('.screen').click(function () {
+        if($('.screen_mask').css('display')=='none'){
+            $('.screen_mask').attr('style','top:'+($('.screen_box').offset().top+$('.screen_box').height()-$(window).scrollTop())+'px;height:'+($(window).height()-$('.screen_box').offset().top-$('.screen_box').height()+$(window).scrollTop())+'px');
+            $('.screen_mask').show()
+            document.body.style.overflow='hidden';
+            document.addEventListener("touchmove",mo,false);//禁止页面滑动
+        }else {
+            $('.screen_mask').hide()
+            document.body.style.overflow='';//出现滚动条
+            document.removeEventListener("touchmove",mo,false);
+        }
+
+    })
+</script>
+</body>
+</html>

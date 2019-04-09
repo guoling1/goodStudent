@@ -1,0 +1,36 @@
+.container{
+    text-align: center;
+}
+.container .title{
+    padding-top: 0.8rem;
+    font-size: 0.34rem;
+    font-weight: bold;
+}
+.container .title i{
+    display: inline-block;
+    width: 1.22rem;
+    height: 0.04rem;
+    background: #e4373b;
+    vertical-align: super;
+}
+select{
+    margin: 0 auto;
+    padding: 0 0.5rem;
+    width: 4.8rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    border: 1px solid #e7e7e7;
+    border-radius: 0.3rem;
+}
+.btn{
+    margin: 4rem auto 0;
+    width: 3.27rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background: #e4373b;
+    border-radius: 0.3rem;
+}
