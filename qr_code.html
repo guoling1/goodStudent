@@ -7,7 +7,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/public.css">
-    <link rel="stylesheet" href="css/open_shop.css">
+    <link rel="stylesheet" href="css/qr_code.css">
 </head>
 <body>
 <div class="header">
@@ -15,47 +15,25 @@
         <img src="images/back.png" alt="">
         <span>返回</span>
     </div>
-    <div class="title">我要开店</div>
+    <div class="title">我的二维码</div>
     <div class="right">
     </div>
 </div>
 
 <div class="container">
-    <ul>
-        <li>
-            <p class="title">姓名</p>
-            <input type="text" placeholder="请输入姓名">
-        </li>
-        <li>
-            <p class="title">身份证号</p>
-            <input type="text" placeholder="请输入身份证号码">
-        </li>
-        <li>
-            <p class="title">手机</p>
-            <input type="text" placeholder="请输入手机号码">
-        </li>
-        <li>
-            <p class="title">性别</p>
-            <select name="" id="">
-                <option value="">请选择性别</option>
-                <option value="男">男</option>
-                <option value="女">女</option>
-            </select>
-        </li>
-        <li class="card">
-            <p class="title">身份证正反面照片</p>
-            <div class="bottom">
-                <div class="face">
-                    <img src="images/cardface.png" alt="">
-                    <input size="100" type="file" name="file" id="face">
-                </div>
-                <div class="face">
-                    <img src="images/cardback.png" alt="">
-                    <input size="100" type="file" name="file" id="back">
-                </div>
+    <div class="content">
+        <div class="top clear">
+            <img src="images/avatar.png" alt="" class="avatar fl">
+            <div class="right">
+                <p class="name">康师傅</p>
+                <p>UID:844780</p>
             </div>
-        </li>
-    </ul>
+        </div>
+        <div class="qr_code">
+            <img src="images/qrCode.png" alt="">
+        </div>
+        <p class="det">长按二维码保存到本地</p>
+    </div>
 </div>
 
 <script src="js/rem.js"></script>

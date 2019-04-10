@@ -1,27 +1,38 @@
 body{
     background: #fff;
 }
-ul li{
+.session1 li{
     margin: 0 auto;
     padding: 0.46rem 0 0;
     width: 6.9rem;
-    height: 1.16rem;
+    /*height: 1.16rem;*/
     border-bottom: 1px solid #f2f2f2;
 }
-ul li .title{
+.session1 li .title{
     padding-left: 0.14rem;
     line-height: 0.34rem;
     font-size: 0.32rem;
     font-weight: bold;
     border-left: 0.05rem solid #e4373b;
 }
-ul li input[type="text"],ul li select{
+
+.session1 li input[type="text"],ul li select{
     margin-top: 0.24rem;
     padding: 0 0.2rem;
     height: 0.58rem;
     width: 6.7rem;
     line-height: 0.58rem;
     font-size: 0.28rem;
+}
+.session1 li select{
+    margin-top: -1px;
+    border: 1px solid #f2f2f2;
+}
+.session1 li.address .title{
+    margin-bottom: 0.4rem;
+}
+.session1 li.address{
+    border: none;
 }
 input[type="file"] {
     position: absolute;
@@ -32,17 +43,16 @@ input[type="file"] {
     opacity: 0;
     width: 100%;
 }
-ul li.card{
-    height: inherit;
-    border-bottom: none;
+.session2{
+    /*margin: 0 auto;*/
+    padding: 0.46rem 0.3rem 0;
+    /*width: 6.9rem;*/
+    border-bottom: 0.2rem solid #f2f3f5;
+    border-top: 0.2rem solid #f2f3f5;
 }
-ul li .bottom{
-    margin-top: 0.4rem;
-    display: flex;
-    justify-content: space-between;
-}
-ul li .bottom .face{
-    position: relative;
-    width: 3.3rem;
-    height: 1.97rem;
+.session2 .title{
+    padding-left: 0.14rem;
+    line-height: 0.34rem;
+    font-size: 0.32rem;
+    font-weight: bold;
 }
