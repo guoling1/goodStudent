@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>好学生</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/swiper-4.3.3.min.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/book_detail.css">
+</head>
+<body>
+<div class="header">
+    <div class="left">
+        <img src="images/back.png" alt="">
+        <span>返回</span>
+    </div>
+    <div class="title">校园商城</div>
+    <div class="right">
+    </div>
+</div>
+
+<div class="container">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="images/book.png" alt=""></div>
+            <div class="swiper-slide"><img src="images/book.png" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+    <p class="new_price">现价：<span>￥18.00</span></p>
+    <s class="old_price">原价：<span>￥24.00</span></s>
+    <p class="book_name">东野圭吾：解忧杂货店（王俊凯、迪丽热巴主演，这家店帮你找回内心流失的东西）</p>
+    <div class="base_info">
+        <p>产品号 <span>东野圭吾作品</span></p>
+        <p>适用 <span>1~3年级</span></p>
+        <p>册数 <span>全8册</span></p>
+        <p>出版社 <span>北京十月出版社</span></p>
+    </div>
+    <div class="intro">
+        <div class="top">
+            <div class="content_title">分册图书</div>
+            <div class="content"></div>
+        </div>
+        <div class="bottom">
+            <div class="content_title">功能与特点</div>
+            <div class="content"></div>
+        </div>
+    </div>
+    <div class="detail">
+        <div class="content_title">图书详情</div>
+        <div class="content"></div>
+    </div>
+    <div class="fix_bottom">
+        <div class="shop_car">
+            <img src="images/shopCar.png" alt="">
+            <p>购物车</p>
+        </div>
+        <div class="add_car">加入购物车</div>
+        <div class="buy">立即购买</div>
+    </div>
+    <div class="add_mask">
+        <div class="add_box">
+            <div class="top clear">
+                <div class="left fl">
+                    <img src="images/book.png" alt="">
+                </div>
+                <div class="right">
+                    <p class="new_price">现价：<span>￥18.00</span></p>
+                    <s class="old_price">原价：<span>￥24.00</span></s>
+                    <p class="book_name">东野圭吾：解忧杂货店（王俊凯、迪丽热巴主演，这家店帮你找回内心流失的东西）</p>
+                </div>
+            </div>
+            <div class="middle clear">
+                <span>选择数量</span>
+                <div class="right fr">
+                    <div class="minus">-</div>
+                    <input type="number" value="1" class="number">
+                    <div class="add">+</div>
+                </div>
+            </div>
+            <div class="btn">确定</div>
+        </div>
+    </div>
+</div>
+
+<script src="js/rem.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/swiper-4.3.3.min.js"></script>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        loop: true,
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+        },
+    })
+    $('.buy').click(function () {
+        if($('.add_mask').css('display')=='none'){
+            $('.add_mask').show()
+        }else {
+            $('.add_mask').hide()
+        }
+    })
+    $('.add_mask').click(function () {
+        $('.add_mask').hide()
+        return false;
+    });
+    $('.add_box').click(function () {
+        return false;
+    });
+
+    $('.add').click(function () {
+        $('.number').attr({'value':Number($('.number').val())+1})
+        return false;
+    });
+    $('.minus').click(function () {
+        if($('.number').val()!=1){
+            $('.number').attr({'value':Number($('.number').val())-1})
+        }
+        return false;
+    });
+</script>
+</body>
+</html>

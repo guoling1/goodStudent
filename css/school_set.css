@@ -1,0 +1,32 @@
+body{
+    background: #fff;
+}
+.content{
+    margin: 0.94rem auto 0;
+    padding: 0.4rem 0;
+    width: 6.9rem;
+    box-shadow: 0 5px 10px #b1d1f4;
+    border-radius: 0.2rem;
+}
+.content .avatar{
+    margin: 0 0.2rem;
+    width: 1.28rem;
+    height: 1.28rem;
+}
+.content .right{
+    font-size: 0.26rem;
+    font-weight: bold;
+}
+.content .right .name{
+    padding: 0.15rem 0;
+    font-size: 0.37rem;
+}
+.content .qr_code{
+    margin: 0.8rem auto 0.7rem;
+    width: 4.98rem;
+    height: 4.98rem;
+}
+.content .det{
+    text-align: center;
+    color: #999999;
+}

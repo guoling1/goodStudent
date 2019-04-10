@@ -1,0 +1,48 @@
+body{
+    background: #fff;
+}
+ul li{
+    margin: 0 auto;
+    padding: 0.46rem 0 0;
+    width: 6.9rem;
+    height: 1.16rem;
+    border-bottom: 1px solid #f2f2f2;
+}
+ul li .title{
+    padding-left: 0.14rem;
+    line-height: 0.34rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    border-left: 0.05rem solid #e4373b;
+}
+ul li input[type="text"],ul li select{
+    margin-top: 0.24rem;
+    padding: 0 0.2rem;
+    height: 0.58rem;
+    width: 6.7rem;
+    line-height: 0.58rem;
+    font-size: 0.28rem;
+}
+input[type="file"] {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background-color: #fff;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+}
+ul li.card{
+    height: inherit;
+    border-bottom: none;
+}
+ul li .bottom{
+    margin-top: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+ul li .bottom .face{
+    position: relative;
+    width: 3.3rem;
+    height: 1.97rem;
+}
