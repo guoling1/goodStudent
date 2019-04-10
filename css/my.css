@@ -1,0 +1,65 @@
+body{
+    background: #f2f3f5;
+}
+.container{
+    background: #fff;
+}
+.base_info{
+    text-align: center;
+    background: url("../images/myBanner.png") no-repeat;
+    color: #fff;
+}
+.base_info .avatar{
+    padding-top: 0.26rem;
+    margin: 0 auto;
+    width: 1.35rem;
+    height: 1.35rem;
+}
+.base_info .bottom{
+    display: flex;
+    justify-content: space-around;
+    height: 0.98rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    background: rgba(0,0,0,0.2);
+}
+.base_info .bottom div{
+    width: 40%;
+}
+.base_info .bottom .title{
+    padding: 0.1rem 0 0.05rem;
+    color: #999;
+    font-size: 0.2rem;
+}
+.base_info .bottom i{
+    display: inline-block;
+    margin-top: 0.28rem;
+    height: 0.6rem;
+    width: 1px;
+    background: linear-gradient(#bd374205,#7b7b7bdb, #ffffffbf, #7b7b7bdb,#bd374205);
+}
+ul li{
+    height: 1rem;
+}
+ul li span{
+    display: inline-block;
+    padding: 0.2rem 0 0.2rem 0.15rem;
+    width: 6.1rem;
+    line-height: 0.64rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    border-bottom: 1px solid #f2f2f2;
+}
+ul li img{
+    margin: 0 0.04rem 0 0.25rem;
+    display: inline-block;
+    width: 0.64rem;
+    height: 0.64rem;
+    vertical-align: middle;
+}
+ul i{
+    display: inline-block;
+    width: 100%;
+    height: 0.2rem;
+    background: #f2f3f5;
+}

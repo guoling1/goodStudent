@@ -6,7 +6,6 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/swiper-4.3.3.min.css">
     <link rel="stylesheet" href="css/public.css">
     <link rel="stylesheet" href="css/school_choose.css">
 </head>
@@ -40,32 +39,5 @@
 
 <script src="js/rem.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/swiper-4.3.3.min.js"></script>
-<script>
-    var mySwiper = new Swiper('.swiper-container', {
-        loop: true,
-        autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-        },
-        pagination: {
-            el: '.swiper-pagination',
-        },
-    })
-
-    $('.screen').click(function () {
-        if($('.screen_mask').css('display')=='none'){
-            $('.screen_mask').attr('style','top:'+($('.screen_box').offset().top+$('.screen_box').height()-$(window).scrollTop())+'px;height:'+($(window).height()-$('.screen_box').offset().top-$('.screen_box').height()+$(window).scrollTop())+'px');
-            $('.screen_mask').show()
-            document.body.style.overflow='hidden';
-            document.addEventListener("touchmove",mo,false);//禁止页面滑动
-        }else {
-            $('.screen_mask').hide()
-            document.body.style.overflow='';//出现滚动条
-            document.removeEventListener("touchmove",mo,false);
-        }
-
-    })
-</script>
 </body>
 </html>

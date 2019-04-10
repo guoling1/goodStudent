@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>好学生</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/shop_car.css">
+</head>
+<body>
+<div class="header">
+    <div class="left">
+        <img src="images/back.png" alt="">
+        <span>返回</span>
+    </div>
+    <div class="title">购物车</div>
+    <div class="right">
+        <span>编辑</span>
+    </div>
+</div>
+
+<div class="container">
+    <ul>
+        <li>
+            <label><input type="checkbox" checked="checked"><span><img src="images/tick.png" alt=""></span></label>
+            <img src="images/book.png" alt="" class="book_img">
+            <div class="right">
+                <p class="name">东野圭吾：解忧杂货店（王俊凯迪丽热巴主演，这家店帮你找东野圭吾</p>
+                <div class="rbottom">
+                    <span class="new_price">￥23.90</span>
+                    <s class="old_price">28.90</s>
+                    <div class="btngroup">
+                        <span class="minus" @click="minus(index)">-</span>
+                        <input value="1" type="number" id="coursenum" class="coursenum">
+                        <span class="add" @click="plus(index)">+</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+        <li>
+            <label><input type="checkbox" checked="checked"><span><img src="images/tick.png" alt=""></span></label>
+            <img src="images/book.png" alt="" class="book_img">
+            <div class="right">
+                <p class="name">东野圭吾：解忧杂货店（王俊凯迪丽热巴主演，这家店帮你找东野圭吾</p>
+                <div class="rbottom">
+                    <span class="new_price">￥23.90</span>
+                    <s class="old_price">28.90</s>
+                    <div class="btngroup">
+                        <span class="minus" @click="minus(index)">-</span>
+                        <input value="1" type="number">
+                        <span class="add" @click="plus(index)">+</span>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+    <div class="bottom">
+        <label><input type="checkbox" name="all"><span><img src="images/tick.png" alt=""></span>全选</label>
+
+        <div class="button">结算(3)</div>
+        <div class="total">合计：￥108.50</div>
+    </div>
+</div>
+
+<script src="js/rem.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+</body>
+</html>

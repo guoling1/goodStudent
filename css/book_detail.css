@@ -1,0 +1,168 @@
+body{
+    background: #f3f3f3;
+}
+.new_price{
+    padding: 0 0.3rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #e4373b;
+    background: #fff;
+}
+.new_price span{
+    font-size: 0.36rem;
+    background: #fff;
+}
+.old_price{
+    padding: 0 0.3rem;
+    display: block;
+    font-size: 0.28rem;
+    font-weight: bold;
+    background: #fff;
+}
+.book_name{
+    padding: 0 0.3rem 0.25rem;
+    font-size: 0.36rem;
+    font-weight: bold;
+    background: #fff;
+    line-height: 0.6rem;
+}
+.base_info{
+    margin: 0.2rem 0;
+    padding: 0.15rem 0.3rem;
+    background: #fff;
+}
+.base_info p{
+    display: inline-block;
+    min-width: 49%;
+    color: #999;
+    line-height: 0.6rem;
+}
+.base_info p span{
+    color: #000;
+}
+.content_title{
+    display: inline-block;
+    margin: 0.4rem 0 0.2rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    border-bottom: 0.08rem solid #e4373b;
+    line-height: 0.1rem;
+}
+.intro,.detail{
+    margin-bottom: 0.2rem;
+    padding: 0 0.3rem;
+    background: #fff;
+}
+.intro .top{
+    border-bottom: 1px dashed #dcdcdc;
+}
+.fix_bottom{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background: #fff;
+    height: 0.96rem;
+    line-height: 0.96rem;
+    text-align: center;
+    font-weight: bold;
+}
+.fix_bottom .shop_car{
+    width: 3.24rem;
+    font-size: 0.2rem;
+    line-height: 0.2rem;
+}
+.fix_bottom .shop_car img{
+    margin: 0.13rem auto 0.07rem;
+    width: 0.48rem;
+    height: 0.44rem;
+}
+.fix_bottom .add_car,.fix_bottom .buy{
+    width: 2.14rem;
+    font-size: 0.32rem;
+    color: #fff;
+    background: #fe9404;
+}
+.fix_bottom .buy{
+    background: #e4373b;
+}
+.add_mask{
+    display: none;
+    position: fixed;
+    top:0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 10;
+}
+.add_mask .add_box{
+    position: absolute;
+    bottom: 0;
+    padding: 0 0.3rem;
+    background: #fff;
+    border-top-left-radius: 0.2rem;
+    border-top-right-radius: 0.2rem;
+}
+.add_mask .add_box .top{
+    padding: 0.25rem 0;
+}
+.add_mask .add_box .top .left{
+    width: 2.8rem;
+    height: 2.8rem;
+}
+.add_mask .add_box .top .right{
+    padding: 0.3rem 0;
+}
+.add_mask .add_box .top .book_name{
+    padding: 0.1rem 0 0;
+    font-size: 0.32rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+}
+.add_mask .add_box .middle{
+    font-size: 0.32rem;
+    color: #999;
+    font-weight: bold;
+}
+.add_mask .add_box .middle span{
+    display: inline-block;
+    margin-left: 0.7rem;
+    line-height: 0.57rem;
+}
+.add_mask .add_box .middle .right{
+    font-size: 0;
+}
+.add_mask .add_box .middle .right div{
+    display: inline-block;
+    width: 0.57rem;
+    height: 0.57rem;
+    line-height: 0.57rem;
+    background: #f3f3f3;
+    text-align: center;
+    font-size: 0.32rem;
+}
+.add_mask .add_box .middle .right input{
+    color: #000;
+    width: 0.83rem;
+    height: 0.57rem;
+    line-height: 0.57rem;
+    text-align: center;
+    background: #f9f9f9;
+    font-size: 0.32rem;
+    vertical-align: bottom;
+}
+.add_mask .add_box .btn{
+    margin: 0.6rem auto 0.22rem;
+    width: 5.55rem;
+    height: 0.76rem;
+    line-height: 0.76rem;
+    color: #fff;
+    border-radius: 0.38rem;
+    background: #e4373b;
+    text-align: center;
+}
+
