@@ -1,0 +1,130 @@
+body{
+    background: #fff;
+}
+.session1 li{
+    margin: 0 auto;
+    padding: 0.46rem 0 0;
+    width: 6.9rem;
+    /*height: 1.16rem;*/
+    border-bottom: 1px solid #f2f2f2;
+}
+.session1 li .title{
+    padding-left: 0.14rem;
+    line-height: 0.34rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    border-left: 0.05rem solid #e4373b;
+}
+
+.session1 li input[type="text"],ul li select{
+    margin-top: 0.24rem;
+    padding: 0 0.2rem;
+    height: 0.58rem;
+    width: 6.7rem;
+    line-height: 0.58rem;
+    font-size: 0.28rem;
+}
+.session1 li select{
+    margin-top: -1px;
+    border: 1px solid #f2f2f2;
+}
+.session1 li.address .title{
+    margin-bottom: 0.4rem;
+}
+.session1 li.address{
+    border: none;
+}
+input[type="file"] {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background-color: #fff;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+}
+.session2{
+    /*margin: 0 auto;*/
+    padding: 0.46rem 0.3rem 0;
+    /*width: 6.9rem;*/
+    border-bottom: 0.2rem solid #f2f3f5;
+    border-top: 0.2rem solid #f2f3f5;
+}
+.session2 .title{
+    padding-left: 0.14rem;
+    line-height: 0.34rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+}
+.session2 .radio_box{
+    padding: 0.3rem 0 0.3rem 0.5rem;
+}
+.session2 label {
+    position: relative;
+    /*cursor: pointer;*/
+    /*color: #fff;*/
+    display: inline-block;
+    width: 1.6rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+.session2 .platform label{
+    width: 2.5rem;
+    margin-bottom: 0.2rem;
+}
+.session2 .platform label:first-child{
+    width: 3.4rem;
+}
+.session2 label input {
+    display: none;
+}
+
+.session2 label span {
+    position: relative;
+    display: inline-block;
+    bottom: 0;
+    width: 0.28rem;
+    height: 0.28rem;
+    /*margin: auto;*/
+    margin-right: 0.14rem;
+    border: 0.02rem solid #ccc;
+    border-radius: 100%;
+    vertical-align: middle;
+}
+
+.session2 label span:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0.12rem;
+    height: 0.12rem;
+    margin: auto;
+    border-radius: 100%;
+    background: #fff;
+    transform: scale(0);
+    transition: all.3s;
+}
+
+.session2 label input:checked+span {
+    /*border-color: #ff4400;*/
+    background: #6298d6;
+}
+
+.session2 label input:checked+span:after {
+    content: '';
+    transform: scale(1);
+}
+.btn{
+    margin: 0.6rem auto;
+    width: 4.5rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    color: #fff;
+    background: #4e9dfa;
+    font-size: 0.32rem;
+    text-align: center;
+    border-radius: 0.35rem;
+}

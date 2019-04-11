@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>好学生</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/school_add.css">
+</head>
+<body>
+<div class="header">
+    <div class="left">
+        <img src="images/back.png" alt="">
+        <span>返回</span>
+    </div>
+    <div class="title">增加学校</div>
+    <div class="right">
+    </div>
+</div>
+
+<div class="container">
+    <ul class="session1">
+        <li class="address">
+            <p class="title">所属地区</p>
+            <select name="" id="">
+                <option value="">请选择省份</option>
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select>
+            <select name="" id="">
+                <option value="">请选择市</option>
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select>
+            <select name="" id="">
+                <option value="">请选择区县</option>
+                <option value="男">男</option>
+                <option value="女">女</option>
+            </select>
+        </li>
+        <li>
+            <p class="title">学校</p>
+            <input type="text" placeholder="请输入学校名称">
+        </li>
+        <li>
+            <p class="title">用户名</p>
+            <input type="text" placeholder="（账户会自动生成）">
+        </li>
+        <li>
+            <p class="title">密码</p>
+            <input type="text" placeholder="（默认为用户名）">
+        </li>
+    </ul>
+    <ul class="session2">
+        <li>
+            <div class="title">统一配送</div>
+            <div class="radio_box">
+                <label><input type="radio" name="delivery" checked><span></span>是</label>
+                <label><input type="radio" name="delivery"><span></span>否</label>
+            </div>
+        </li>
+        <li>
+            <div class="title">前台显示</div>
+            <div class="radio_box">
+                <label><input type="radio" name="page" checked><span></span>是</label>
+                <label><input type="radio" name="page"><span></span>否</label>
+            </div>
+        </li>
+        <li>
+            <div class="title">统计显示</div>
+            <div class="radio_box">
+                <label><input type="radio" name="total" checked><span></span>是</label>
+                <label><input type="radio" name="total"><span></span>否</label>
+            </div>
+        </li>
+        <li class="platform">
+            <div class="title">平台显示</div>
+            <div class="radio_box">
+                <label><input type="radio" name="platform" checked><span></span>平台和必读都显示</label>
+                <label><input type="radio" name="platform"><span></span>只显示平台选购</label>
+                <label><input type="radio" name="platform"><span></span>只显示必读选购</label>
+            </div>
+        </li>
+    </ul>
+    <ul class="session1">
+        <li>
+            <p class="title">排序（请填写数值，越大显示越靠前）</p>
+            <input type="text" placeholder="请填写序号">
+        </li>
+    </ul>
+    <div class="btn">确定</div>
+</div>
+
+<script src="js/rem.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+</body>
+</html>
