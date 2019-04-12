@@ -13,7 +13,7 @@
     height: 0.06rem;
 }
 ul{
-    margin: 0.35rem auto 0;
+    margin: 0.35rem auto 0.28rem;
     padding: 0 0.28rem;
     width: 6.34rem;
     box-shadow: 0 5px 22px #bde7f7;
@@ -67,10 +67,16 @@ li .right .price {
     font-weight: bold;
 }
 .row{
-    margin: 0 auto;
+    padding: 0 0.3rem;
     width: 6.9rem;
     line-height: 0.7rem;
     font-size: 0.28rem;
     font-weight: bold;
-
+}
+.row.price{
+    border-bottom: 0.2rem solid #f2f3f5;
+    margin-bottom: 0.26rem;
+}
+.row.price span{
+    color: #e4373b;
 }

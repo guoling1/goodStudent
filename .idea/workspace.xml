@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4554d801-edcd-489e-b93c-d4c246b57c53" name="Default" comment="yemian">
-      <change afterPath="$PROJECT_DIR$/css/order.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/order_detail.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/qr_code.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/school_add.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/school_set.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/del.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/edit.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/qrCode.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order_detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qr_code.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school_add.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/school_set.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/my.html" beforeDir="false" afterPath="$PROJECT_DIR$/my.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/order_detail.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/order_detail.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/order_detail.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,8 +22,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/order_detail.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="554">
-                  <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+                <state relative-caret-position="752">
+                  <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
                   <folding>
                     <element signature="n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" />
                   </folding>
@@ -51,8 +38,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/css/order_detail.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="554">
-                  <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+                <state relative-caret-position="180">
+                  <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -117,8 +104,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="706" />
-    <option name="y" value="9" />
+    <option name="x" value="733" />
+    <option name="y" value="18" />
     <option name="width" value="1279" />
     <option name="height" value="1002" />
   </component>
@@ -188,6 +175,7 @@
       <workItem from="1554807571173" duration="11395000" />
       <workItem from="1554859195835" duration="22382000" />
       <workItem from="1554946920513" duration="18000" />
+      <workItem from="1555031586777" duration="1803000" />
     </task>
     <task id="LOCAL-00001" summary="yemian">
       <created>1554885263941</created>
@@ -196,14 +184,21 @@
       <option name="project" value="LOCAL" />
       <updated>1554885263941</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="yemian">
+      <created>1554977987729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1554977987730</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43085000" />
+    <option name="totallyTimeSpent" value="44965000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="706" y="9" width="1279" height="1002" extended-state="0" />
+    <frame x="733" y="18" width="1279" height="1002" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.18614021" />
@@ -501,8 +496,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/order_detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+        <state relative-caret-position="752">
+          <caret line="72" column="28" selection-start-line="72" selection-start-column="28" selection-end-line="72" selection-end-column="28" />
           <folding>
             <element signature="n#ul#0;n#div#1;n#body#0;n#html#0;n#!!top" />
           </folding>
@@ -511,8 +506,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/order_detail.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+        <state relative-caret-position="180">
+          <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
         </state>
       </provider>
     </entry>
