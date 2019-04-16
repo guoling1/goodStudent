@@ -1,0 +1,82 @@
+.base_info{
+    padding: 0.2rem 0.3rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+    color: #333;
+    line-height: 0.6rem;
+}
+.base_info .name{
+    font-size: 0.37rem;
+}
+.line{
+    width: 100%;
+    height: 0.06rem;
+}
+ul{
+    margin: 0.35rem auto 0.28rem;
+    padding: 0 0.28rem;
+    width: 6.34rem;
+    box-shadow: 0 5px 22px #bde7f7;
+    border-radius: 0.2rem;
+}
+li {
+    padding: 0.14rem 0;
+    height: 2.08rem;
+    border-bottom: 1px dashed #f3f4f6;
+}
+li .book_img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 2rem;
+    height: 2rem;
+    margin: 0 0.05rem;
+}
+
+li .right {
+    position: relative;
+    display: inline-block;
+    height: 100%;
+    width: 3.9rem;
+    vertical-align: top;
+}
+
+li .right .rbottom {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+li .right .name {
+    font-size: 0.28rem;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+}
+li .right .num{
+    font-size: 0.24rem;
+    line-height: 0.48rem;
+    color: #999999;
+    font-weight: bold;
+}
+li .right .price {
+    font-size: 0.36rem;
+    color: #e4373b;
+    font-weight: bold;
+}
+.row{
+    padding: 0 0.3rem;
+    width: 6.9rem;
+    line-height: 0.7rem;
+    font-size: 0.28rem;
+    font-weight: bold;
+}
+.row.price{
+    border-bottom: 0.2rem solid #f2f3f5;
+    margin-bottom: 0.26rem;
+}
+.row.price span{
+    color: #e4373b;
+}

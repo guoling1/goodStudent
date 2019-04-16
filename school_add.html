@@ -11,10 +11,10 @@
 </head>
 <body>
 <div class="header">
-    <div class="left">
+    <a href="javascript:history.go(-1)" class="left">
         <img src="images/back.png" alt="">
         <span>返回</span>
-    </div>
+    </a>
     <div class="title">增加学校</div>
     <div class="right">
     </div>
@@ -56,6 +56,32 @@
     <ul class="session2">
         <li>
             <div class="title">统一配送</div>
+            <div class="radio_box">
+                <label><input type="radio" name="delivery" checked><span></span>是</label>
+                <label><input type="radio" name="delivery"><span></span>否</label>
+            </div>
+        </li>
+        <li>
+            <div class="title">前台显示</div>
+            <div class="radio_box">
+                <label><input type="radio" name="page" checked><span></span>是</label>
+                <label><input type="radio" name="page"><span></span>否</label>
+            </div>
+        </li>
+        <li>
+            <div class="title">统计显示</div>
+            <div class="radio_box">
+                <label><input type="radio" name="total" checked><span></span>是</label>
+                <label><input type="radio" name="total"><span></span>否</label>
+            </div>
+        </li>
+        <li class="platform">
+            <div class="title">平台显示</div>
+            <div class="radio_box">
+                <label><input type="radio" name="platform" checked><span></span>平台和必读都显示</label>
+                <label><input type="radio" name="platform"><span></span>只显示平台选购</label>
+                <label><input type="radio" name="platform"><span></span>只显示必读选购</label>
+            </div>
         </li>
     </ul>
     <ul class="session1">
@@ -64,6 +90,7 @@
             <input type="text" placeholder="请填写序号">
         </li>
     </ul>
+    <div class="btn">确定</div>
 </div>
 
 <script src="js/rem.js"></script>
