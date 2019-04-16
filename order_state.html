@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>好学生</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/order_state.css">
+</head>
+<body>
+<div class="header">
+    <a href="javascript:history.go(-1)" class="left">
+        <img src="images/back.png" alt="">
+        <span>返回</span>
+    </a>
+    <div class="title">订单检索及状态</div>
+    <div class="right">
+    </div>
+</div>
+
+<div class="container">
+    <div class="search_box">
+        <div class="top">
+            <select name="" id="">
+                <option value="">学校</option>
+            </select>
+            <select name="" id="">
+                <option value="">年级</option>
+            </select>
+            <select name="" id="">
+                <option value="">班级</option>
+            </select>
+        </div>
+        <div class="middle">
+            <input type="text" placeholder="学生姓名">
+            <input type="text" placeholder="手机号">
+        </div>
+        <div class="button">
+            <img src="images/search.png" alt="">
+            搜索
+        </div>
+    </div>
+    <div class="tab">
+        <p class="active">全部</p>
+        <p>未付款</p>
+        <p>未发货</p>
+        <p>已完成</p>
+    </div>
+    <ul>
+        <li>
+            <div class="top">
+                <span class="num">01</span>
+                <span class="address">河北省邯郸市成安县</span>
+                <span class="class">三年级二班</span>
+            </div>
+            <div class="bottom">
+                <!--<span class="num">01</span>-->
+                <span class="num">订单编号:1231564564564</span>
+                <span class="status">订单状态:已发货 <i></i></span>
+            </div>
+        </li>
+        <li>
+            <div class="top">
+                <span class="num">01</span>
+                <span class="address">河北省邯郸市成安县</span>
+                <span class="class">三年级二班</span>
+            </div>
+            <div class="bottom">
+                <!--<span class="num">01</span>-->
+                <span class="num">订单编号:1231564564564</span>
+                <span class="status end">订单状态:已完成 <i></i></span>
+            </div>
+        </li>
+    </ul>
+    <div class="mask_box">
+        <div class="mask">
+            <div class="close">×</div>
+            <div class="title">提示！</div>
+            <div class="title">将当前订单状态改为</div>
+            <div class="status"><span>未付款</span></div>
+            <div class="status"><span>已发货</span></div>
+            <div class="status"><span>已完成</span></div>
+            <div class="button">确认</div>
+        </div>
+    </div>
+</div>
+
+<script src="js/rem.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $('li .status').click(function () {
+        $('.mask_box').show()
+    })
+    $('.mask_box .close').click(function () {
+        $('.mask_box').hide()
+    })
+</script>
+</body>
+</html>

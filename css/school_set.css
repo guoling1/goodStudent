@@ -65,6 +65,7 @@ ul li .bottom img{
     width: auto;
 }
 .fix_bottom{
+    display: block;
     position: fixed;
     bottom: 0;
     width: 100%;
