@@ -1,4 +1,7 @@
 body{
+    background: #f9f9f9;
+}
+ul{
     background: #fff;
 }
 ul li{
@@ -31,33 +34,39 @@ input[type="file"] {
     opacity: 0;
     width: 100%;
 }
-label {
-    position: relative;
-    cursor: pointer;
-    padding-left: 17px;
+.set{
+    padding: 0 0.3rem;
+    line-height: 1rem;
+    background: #fff;
+    font-weight: bold;
 }
-
-label input {
-    display: none;
-}
-
-label span {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
+.set .fr{
+    display: inline-block;
+    margin-top: 0.38rem;
     width: 12px;
     height: 12px;
-    margin: auto;
+    /*margin: auto;*/
     border-radius: 50%;
     border: 1px solid #666;
-
 }
-
-label input:checked+span {
+.set .fr.select{
+     width: 14px;
+     height: 14px;
+     /*margin: auto;*/
+     border-radius: 50%;
+     border: none;
     background: url("../images/select.png") no-repeat;
     background-size: 100% 100%;
-    border: none;
-    width: 14px;
-    height: 14px;
+ }
+.button{
+    margin: 0.8rem auto 0;
+    width: 6.48rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    color: #fff;
+    font-size: 0.32rem;
+    font-weight: bold;
+    background: #4e9dfa;
+    border-radius: 0.07rem;
+    text-align: center;
 }
