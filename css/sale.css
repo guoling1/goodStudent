@@ -1,0 +1,43 @@
+body{
+    background: #fff;
+}
+.container{
+    text-align: center;
+}
+.total_box{
+    padding: 0 0.2rem 0.4rem;
+    font-weight: bold;
+}
+.total_box .title{
+    padding: 0.5rem 0 0.4rem;
+    text-align: left;
+    font-size: 0.36rem;
+}
+.total_box .total{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.28rem;
+}
+ul{
+    margin: 0 auto;
+    width: 7.1rem;
+    box-shadow: 0 5px 10px #b1d1f4;
+    border-radius: 0.1rem;
+}
+ul .ul_title{
+    font-weight: bold;
+    background: #f9f9f9;
+    color: #666;
+}
+ul li{
+    display: flex;
+    justify-content: space-around;
+    line-height: 0.75rem;
+    font-size: 0.28rem;
+}
+ul li .number{
+    width: 45%;
+}
+ul li .address,ul li .name{
+    width: 27%;
+}
