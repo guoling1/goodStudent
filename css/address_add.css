@@ -1,6 +1,9 @@
 body{
     background: #fff;
 }
+ul{
+    margin-bottom: 0.3rem;
+}
 ul li{
     margin: 0 auto;
     padding: 0.32rem 0 0;
@@ -32,6 +35,7 @@ input[type="file"] {
     width: 100%;
 }
 label {
+    margin: 0.3rem;
     position: relative;
     cursor: pointer;
     padding-left: 17px;
