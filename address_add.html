@@ -56,5 +56,14 @@
 
 <script src="js/rem.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $('.set').click(function () {
+        if($('.set .fr').hasClass('select')){
+            $('.set .fr').removeClass('select')
+        }else {
+            $('.set .fr').addClass('select')
+        }
+    })
+</script>
 </body>
 </html>

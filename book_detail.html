@@ -56,6 +56,7 @@
         <div class="shop_car">
             <img src="images/shopCar.png" alt="">
             <p>购物车</p>
+            <span class="num" id="num">19</span>
         </div>
         <div class="add_car">加入购物车</div>
         <div class="buy">立即购买</div>
@@ -83,6 +84,7 @@
             <div class="btn">确定</div>
         </div>
     </div>
+    <div class="tip">添加成功</div>
 </div>
 
 <script src="js/rem.js"></script>
@@ -106,6 +108,13 @@
             $('.add_mask').hide()
         }
     })
+    $('.add_car').click(function () {
+        $('.tip').css('display','block');
+        $('#num').html(Number($('#num').html())+1)
+        setTimeout(function () {
+            $('.tip').css('display','none');
+        },1000)
+    });
     $('.add_mask').click(function () {
         $('.add_mask').hide()
         return false;

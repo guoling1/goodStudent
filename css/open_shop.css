@@ -46,3 +46,15 @@ ul li .bottom .face{
     width: 3.3rem;
     height: 1.97rem;
 }
+.button{
+    margin: 0.8rem auto 0;
+    width: 6.48rem;
+    height: 0.82rem;
+    line-height: 0.82rem;
+    color: #fff;
+    font-size: 0.32rem;
+    font-weight: bold;
+    background: #4e9dfa;
+    border-radius: 0.07rem;
+    text-align: center;
+}

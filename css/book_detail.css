@@ -69,9 +69,20 @@ body{
     font-weight: bold;
 }
 .fix_bottom .shop_car{
+    position: relative;
     width: 3.24rem;
     font-size: 0.2rem;
     line-height: 0.2rem;
+}
+.fix_bottom .shop_car .num{
+    position: absolute;
+    top: 0.05rem;
+    left: 1.7rem;
+    padding: 0.05rem;
+    background: #e4373b;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 0.2rem;
 }
 .fix_bottom .shop_car img{
     margin: 0.13rem auto 0.07rem;
@@ -164,5 +175,17 @@ body{
     border-radius: 0.38rem;
     background: #e4373b;
     text-align: center;
+}
+.tip{
+    display: none;
+    position: fixed;
+    bottom:1.5rem;
+    left: 3rem;
+    background: rgba(0,0,0,0.6);
+    width: 1.5rem;
+    line-height: 0.4rem;
+    color: #fff;
+    text-align: center;
+    border-radius: 0.1rem;
 }
 
