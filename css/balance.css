@@ -1,0 +1,33 @@
+/*body{*/
+    /*background: #f2f3f5;*/
+/*}*/
+.price_box{
+    font-weight: bold;
+    text-align: center;
+    margin: 0.7rem auto 0;
+    padding: 0.5rem 0 0.9rem;
+    background: #fff;
+    border-radius: 0.25rem;
+    width: 5.8rem;
+    color: #a6b0ca;
+    font-size: 0.22rem;
+    box-shadow: 0 5px 20px #d4e7fd;
+}
+.price_box .price{
+    margin-top: 0.3rem;
+    font-size: 0.48rem;
+    font-weight: 900;
+    color: #333;
+}
+.submit{
+    margin: 1.7rem auto 0;
+    width: 5.8rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-radius: 0.45rem;
+    font-size: 0.32rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background: #4e9dfa;
+}
