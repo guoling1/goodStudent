@@ -1,0 +1,59 @@
+body{
+    background: #f9f9f9;
+}
+ul{
+    background: #fff;
+}
+ul{
+    margin-bottom: 0.3rem;
+}
+ul li{
+    margin: 0 auto;
+    padding: 0.32rem 0 0;
+    width: 6.9rem;
+    height: 0.7rem;
+    line-height: 0.7rem;
+    border-bottom: 1px solid #f2f2f2;
+    font-size: 0.28rem;
+}
+ul li .title{
+    display: inline-block;
+    width: 1.2rem;
+    font-weight: bold;
+}
+ul li input[type="text"],ul li select{
+    float: right;
+    text-align: right;
+    margin-left: 0.6rem;
+    height: 0.7rem;
+    width: 4.7rem;
+    line-height: 0.7rem;
+    font-size: 0.28rem;
+}
+input[type="file"] {
+    position: absolute;
+    top: 0;
+    font-size: 14px;
+    background-color: #fff;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+}
+/*label {*/
+    /*margin: 0.3rem;*/
+    /*position: relative;*/
+    /*cursor: pointer;*/
+    /*padding-left: 17px;*/
+/*}*/
+.button{
+    margin: 0.8rem auto 0;
+    width: 5.8rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    color: #fff;
+    font-size: 0.32rem;
+    font-weight: bold;
+    background: #4e9dfa;
+    border-radius: 0.45rem;
+    text-align: center;
+}
